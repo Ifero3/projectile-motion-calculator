@@ -24,3 +24,21 @@ Run:
 - translating physics equations into code
 - mathematical modeling and simulation
 - using loops and input validation for scientific programs
+
+## Testing
+The program was tested using standard physics cases.
+
+Example test case:
+- Initial speed v0 = 20 m/s
+- Launch angle θ = 45°
+- Initial height h0 = 0 m
+- Gravity g = 9.81 m/s²
+
+Expected results (approximate):
+- Flight time ≈ 2.9 s
+- Time to peak ≈ 1.4 s
+- Maximum height ≈ 10.2 m
+- Range ≈ 40.8 m
+
+The computed outputs closely match analytical solutions from kinematics,
+confirming the correctness of the model.
